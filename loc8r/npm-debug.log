@@ -1,0 +1,239 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'heroku-cli' ]
+2 info using npm@1.4.21
+3 info using node@v4.8.2
+4 verbose cache add [ 'heroku-cli', null ]
+5 verbose cache add name=undefined spec="heroku-cli" args=["heroku-cli",null]
+6 verbose parsed url Url {
+6 verbose parsed url   protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'heroku-cli',
+6 verbose parsed url   path: 'heroku-cli',
+6 verbose parsed url   href: 'heroku-cli' }
+7 silly lockFile 2a633d17-heroku-cli heroku-cli
+8 verbose lock heroku-cli /home/pi/.npm/2a633d17-heroku-cli.lock
+9 silly lockFile 2a633d17-heroku-cli heroku-cli
+10 silly lockFile 2a633d17-heroku-cli heroku-cli
+11 verbose addNamed [ 'heroku-cli', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 93d219be-heroku-cli heroku-cli@
+14 verbose lock heroku-cli@ /home/pi/.npm/93d219be-heroku-cli.lock
+15 silly addNameRange { name: 'heroku-cli', range: '*', hasData: false }
+16 verbose request where is /heroku-cli
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 69198cb3b9700bdd
+19 verbose url raw /heroku-cli
+20 verbose url resolving [ 'https://registry.npmjs.org/', './heroku-cli' ]
+21 verbose url resolved https://registry.npmjs.org/heroku-cli
+22 verbose request where is https://registry.npmjs.org/heroku-cli
+23 info trying registry request attempt 1 at 20:07:17
+24 http GET https://registry.npmjs.org/heroku-cli
+25 http 200 https://registry.npmjs.org/heroku-cli
+26 silly registry.get cb [ 200,
+26 silly registry.get   { server: 'nginx/1.10.1',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'last-modified': 'Thu, 09 Nov 2017 06:31:37 GMT',
+26 silly registry.get     etag: 'W/"5a03f649-5f886"',
+26 silly registry.get     'content-encoding': 'gzip',
+26 silly registry.get     'cache-control': 'max-age=300',
+26 silly registry.get     'content-length': '30722',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     date: 'Thu, 09 Nov 2017 20:07:18 GMT',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '0',
+26 silly registry.get     connection: 'close',
+26 silly registry.get     'x-served-by': 'cache-atl6250-ATL',
+26 silly registry.get     'x-cache': 'MISS',
+26 silly registry.get     'x-cache-hits': '0',
+26 silly registry.get     'x-timer': 'S1510258038.318148,VS0,VE84',
+26 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+27 silly addNameRange number 2 { name: 'heroku-cli', range: '*', hasData: true }
+28 silly addNameRange versions [ 'heroku-cli',
+28 silly addNameRange   [ '6.0.0',
+28 silly addNameRange     '6.0.1',
+28 silly addNameRange     '6.0.2',
+28 silly addNameRange     '6.0.7',
+28 silly addNameRange     '6.1.4',
+28 silly addNameRange     '6.1.5',
+28 silly addNameRange     '6.1.6',
+28 silly addNameRange     '6.1.7',
+28 silly addNameRange     '6.2.0',
+28 silly addNameRange     '6.2.1',
+28 silly addNameRange     '6.3.0',
+28 silly addNameRange     '6.3.1',
+28 silly addNameRange     '6.4.0',
+28 silly addNameRange     '6.4.1',
+28 silly addNameRange     '6.5.0',
+28 silly addNameRange     '6.5.1',
+28 silly addNameRange     '6.5.2',
+28 silly addNameRange     '6.5.3',
+28 silly addNameRange     '6.5.4',
+28 silly addNameRange     '6.5.5',
+28 silly addNameRange     '6.6.0',
+28 silly addNameRange     '6.6.2',
+28 silly addNameRange     '6.6.5',
+28 silly addNameRange     '6.6.7',
+28 silly addNameRange     '6.6.8',
+28 silly addNameRange     '6.6.9',
+28 silly addNameRange     '6.6.10',
+28 silly addNameRange     '6.6.11',
+28 silly addNameRange     '6.6.12',
+28 silly addNameRange     '6.6.13',
+28 silly addNameRange     '6.6.14',
+28 silly addNameRange     '6.6.15',
+28 silly addNameRange     '6.6.16',
+28 silly addNameRange     '6.6.17',
+28 silly addNameRange     '6.6.18',
+28 silly addNameRange     '6.6.19',
+28 silly addNameRange     '6.7.0',
+28 silly addNameRange     '6.7.1',
+28 silly addNameRange     '6.7.2',
+28 silly addNameRange     '6.7.3',
+28 silly addNameRange     '6.7.4',
+28 silly addNameRange     '6.8.0',
+28 silly addNameRange     '6.8.1',
+28 silly addNameRange     '6.8.2',
+28 silly addNameRange     '6.8.3',
+28 silly addNameRange     '6.8.4',
+28 silly addNameRange     '6.8.5',
+28 silly addNameRange     '6.9.0',
+28 silly addNameRange     '6.9.1',
+28 silly addNameRange     '6.9.2',
+28 silly addNameRange     '6.9.3',
+28 silly addNameRange     '6.9.4',
+28 silly addNameRange     '6.9.5',
+28 silly addNameRange     '6.9.6',
+28 silly addNameRange     '6.9.7',
+28 silly addNameRange     '6.10.0',
+28 silly addNameRange     '6.10.1',
+28 silly addNameRange     '6.10.2' ] ]
+29 verbose addNamed [ 'heroku-cli', '6.10.2' ]
+30 verbose addNamed [ '6.10.2', '6.10.2' ]
+31 silly lockFile 37244cf3-heroku-cli-6-10-2 heroku-cli@6.10.2
+32 verbose lock heroku-cli@6.10.2 /home/pi/.npm/37244cf3-heroku-cli-6-10-2.lock
+33 silly lockFile 05928885-heroku-cli-heroku-cli-6-10-2-tgz https://registry.npmjs.org/heroku-cli/-/heroku-cli-6.10.2.tgz
+34 verbose lock https://registry.npmjs.org/heroku-cli/-/heroku-cli-6.10.2.tgz /home/pi/.npm/05928885-heroku-cli-heroku-cli-6-10-2-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/heroku-cli/-/heroku-cli-6.10.2.tgz',
+35 verbose addRemoteTarball   '8ca4cb3cbb49a01e4204a0570a0313cab6e7d2bd' ]
+36 info retry fetch attempt 1 at 20:07:19
+37 verbose fetch to= /tmp/npm-6328-5cFCGP9-/registry.npmjs.org/heroku-cli/-/heroku-cli-6.10.2.tgz
+38 http GET https://registry.npmjs.org/heroku-cli/-/heroku-cli-6.10.2.tgz
+39 http 200 https://registry.npmjs.org/heroku-cli/-/heroku-cli-6.10.2.tgz
+40 silly lockFile 05928885-heroku-cli-heroku-cli-6-10-2-tgz https://registry.npmjs.org/heroku-cli/-/heroku-cli-6.10.2.tgz
+41 silly lockFile 05928885-heroku-cli-heroku-cli-6-10-2-tgz https://registry.npmjs.org/heroku-cli/-/heroku-cli-6.10.2.tgz
+42 silly lockFile 37244cf3-heroku-cli-6-10-2 heroku-cli@6.10.2
+43 silly lockFile 37244cf3-heroku-cli-6-10-2 heroku-cli@6.10.2
+44 silly lockFile 93d219be-heroku-cli heroku-cli@
+45 silly lockFile 93d219be-heroku-cli heroku-cli@
+46 silly resolved [ { name: 'heroku-cli',
+46 silly resolved     description: 'CLI to interact with Heroku',
+46 silly resolved     version: '6.10.2',
+46 silly resolved     author: { name: 'Jeff Dickey @dickeyxxx' },
+46 silly resolved     bin: { heroku: 'bin/run' },
+46 silly resolved     bugs: { url: 'https://github.com/heroku/cli/issues' },
+46 silly resolved     'cli-engine':
+46 silly resolved      { dirname: 'heroku',
+46 silly resolved        bin: 'heroku',
+46 silly resolved        node: '7.10.0',
+46 silly resolved        defaultCommand: 'dashboard',
+46 silly resolved        s3: [Object],
+46 silly resolved        plugins: [Object] },
+46 silly resolved     dependencies:
+46 silly resolved      { 'cli-engine': '3.5.10',
+46 silly resolved        'heroku-apps': '2.3.1',
+46 silly resolved        'heroku-certs': '1.1.38',
+46 silly resolved        'heroku-ci': '1.8.0',
+46 silly resolved        'heroku-cli-addons': '1.2.21',
+46 silly resolved        'heroku-cli-oauth': '2.0.13',
+46 silly resolved        'heroku-cli-status': '4.0.0',
+46 silly resolved        'heroku-fork': '4.1.22',
+46 silly resolved        'heroku-git': '2.5.17',
+46 silly resolved        'heroku-local': '5.1.16',
+46 silly resolved        'heroku-orgs': '1.6.2',
+46 silly resolved        'heroku-pg': '2.2.1',
+46 silly resolved        'heroku-pipelines': '2.1.1',
+46 silly resolved        'heroku-ps-exec': '1.0.1',
+46 silly resolved        'heroku-redis': '1.2.14',
+46 silly resolved        'heroku-run': '3.4.11',
+46 silly resolved        'heroku-spaces': '2.9.2' },
+46 silly resolved     files: [ 'bin' ],
+46 silly resolved     homepage: 'https://cli.heroku.com',
+46 silly resolved     keywords: [ 'heroku', 'heroku-cli-plugin' ],
+46 silly resolved     license: 'ISC',
+46 silly resolved     repository: { type: 'git', url: 'git+https://github.com/heroku/cli.git' },
+46 silly resolved     scripts: { build: 'cli-build', release: 'cli-release' },
+46 silly resolved     gitHead: '214890015214747eb7742bdcf7f5736027f2c26b',
+46 silly resolved     _id: 'heroku-cli@6.10.2',
+46 silly resolved     _shasum: '8ca4cb3cbb49a01e4204a0570a0313cab6e7d2bd',
+46 silly resolved     _from: 'heroku-cli@',
+46 silly resolved     _npmVersion: '4.2.0',
+46 silly resolved     _nodeVersion: '7.10.0',
+46 silly resolved     _npmUser: { name: 'dickeyxxx', email: 'dickeytk+npm@gmail.com' },
+46 silly resolved     dist:
+46 silly resolved      { shasum: '8ca4cb3cbb49a01e4204a0570a0313cab6e7d2bd',
+46 silly resolved        tarball: 'https://registry.npmjs.org/heroku-cli/-/heroku-cli-6.10.2.tgz' },
+46 silly resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+46 silly resolved     _npmOperationalInternal:
+46 silly resolved      { host: 's3://npm-registry-packages',
+46 silly resolved        tmp: 'tmp/heroku-cli-6.10.2.tgz_1497019467546_0.4705606906209141' },
+46 silly resolved     directories: {},
+46 silly resolved     _resolved: 'https://registry.npmjs.org/heroku-cli/-/heroku-cli-6.10.2.tgz' } ]
+47 info install heroku-cli@6.10.2 into /usr/local/lib
+48 info installOne heroku-cli@6.10.2
+49 verbose lib/node_modules/heroku-cli unbuild
+50 verbose tar unpack /home/pi/.npm/heroku-cli/6.10.2/package.tgz
+51 silly lockFile fc019f02-ocal-lib-node-modules-heroku-cli tar:///usr/local/lib/node_modules/heroku-cli
+52 verbose lock tar:///usr/local/lib/node_modules/heroku-cli /home/pi/.npm/fc019f02-ocal-lib-node-modules-heroku-cli.lock
+53 silly lockFile b1a5b5f3-pm-heroku-cli-6-10-2-package-tgz tar:///home/pi/.npm/heroku-cli/6.10.2/package.tgz
+54 verbose lock tar:///home/pi/.npm/heroku-cli/6.10.2/package.tgz /home/pi/.npm/b1a5b5f3-pm-heroku-cli-6-10-2-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 error tar.unpack untar error /home/pi/.npm/heroku-cli/6.10.2/package.tgz
+57 silly lockFile fc019f02-ocal-lib-node-modules-heroku-cli tar:///usr/local/lib/node_modules/heroku-cli
+58 silly lockFile fc019f02-ocal-lib-node-modules-heroku-cli tar:///usr/local/lib/node_modules/heroku-cli
+59 silly lockFile b1a5b5f3-pm-heroku-cli-6-10-2-package-tgz tar:///home/pi/.npm/heroku-cli/6.10.2/package.tgz
+60 silly lockFile b1a5b5f3-pm-heroku-cli-6-10-2-package-tgz tar:///home/pi/.npm/heroku-cli/6.10.2/package.tgz
+61 verbose lib/node_modules/heroku-cli unbuild
+62 error Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/heroku-cli'
+62 error     at Error (native)
+62 error  { [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/heroku-cli']
+62 error   errno: -13,
+62 error   code: 'EACCES',
+62 error   syscall: 'mkdir',
+62 error   path: '/usr/local/lib/node_modules/heroku-cli',
+62 error   fstream_type: 'Directory',
+62 error   fstream_path: '/usr/local/lib/node_modules/heroku-cli',
+62 error   fstream_class: 'DirWriter',
+62 error   fstream_stack:
+62 error    [ '/usr/lib/nodejs/fstream/lib/dir-writer.js:35:25',
+62 error      '/usr/lib/nodejs/mkdirp/index.js:46:53',
+62 error      'FSReqWrap.oncomplete (fs.js:82:15)' ] }
+63 error Please try running this command again as root/Administrator.
+64 error System Linux 4.9.41+
+65 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "heroku-cli"
+66 error cwd /home/pi/Express/loc8r
+67 error node -v v4.8.2
+68 error npm -v 1.4.21
+69 error path /usr/local/lib/node_modules/heroku-cli
+70 error syscall mkdir
+71 error fstream_path /usr/local/lib/node_modules/heroku-cli
+72 error fstream_type Directory
+73 error fstream_class DirWriter
+74 error code EACCES
+75 error errno -13
+76 error stack Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/heroku-cli'
+76 error stack     at Error (native)
+77 error fstream_stack /usr/lib/nodejs/fstream/lib/dir-writer.js:35:25
+77 error fstream_stack /usr/lib/nodejs/mkdirp/index.js:46:53
+77 error fstream_stack FSReqWrap.oncomplete (fs.js:82:15)
+78 verbose exit [ -13, true ]
